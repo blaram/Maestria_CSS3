@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+
+/* Variables */
+:root {
+  --color-primario: #0d6efd;
+  --color-secundario: #0b5ed7;
+  --color-oscuro: #122936;
+}
+
+/* Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+/* Menu Principal */
+.menu-principal {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+}
+
+.menu-principal div {
+  float: left;
+}
+
+.nav-imagen {
+  height: 100%;
+}
+
+.nav-imagen img {
+  width: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-enlaces a {
+  line-height: 50px;
+  margin: 0 20px;
+  color: #000000;
+  padding: 4px 10px;
+  border: 2px solid transparent;
+  transition: all .5s;
+}
+
+.nav-enlaces a.active {
+  color: var(--color-primario);
+}
+
+.nav-enlaces a:hover {
+  border: 2px solid var(--color-primario);
+}

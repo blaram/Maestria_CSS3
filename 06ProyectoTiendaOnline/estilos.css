@@ -460,3 +460,35 @@ header button {
   transition: all 0.5s;
 }
 
+/* Footer */
+footer {
+  width: 100%;
+  height: 100px;
+  background: #0f212c;
+}
+
+footer div {
+  float: left;
+  width: 25%;
+  height: 100%;
+  line-height: 100px;
+  transition: all .5s;
+}
+
+footer div:hover {
+  background: #0d1c25;
+}
+
+footer div:hover > a {
+  font-size: 35px;
+}
+
+footer div a {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: #cccccc;
+  transition: all .5s;
+}
+
+
